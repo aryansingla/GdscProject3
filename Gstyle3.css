@@ -38,7 +38,7 @@ body{
     border-bottom: 1px solid black;
     transition: all .5s ease;
 }
-.sidebar ul a .login{
+.sidebar ul a b{
     color:green;
     font-weight:700;
     padding-left:45px;
