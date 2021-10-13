@@ -11,10 +11,10 @@ body{
 }
 .sidebar{
     position: fixed;
-    top:-5px;
+    
     left: -250px;
     width: 250px;
-    height: 110vh;
+    height: 100%;
     background: url(HackerNews1.jpg) no-repeat;
     background-size: 100% 100%;
 }
@@ -57,7 +57,7 @@ ul li:hover a{
     display: none;
 }
 label #btn , label #cancel{
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     background: #042331;
     border-radius: 3px;
